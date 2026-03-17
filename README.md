@@ -1,4 +1,4 @@
-# Shooter Simulation + RL Framework
+# VR Shooter Discrete Event Simulator
 
 ![Environment to Graph](assets/map_to_graph.png)
 
@@ -172,15 +172,6 @@ If you use this work, please cite:
   organization={IEEE}
 }
 ```
-
----
-
-## Contact
-
-For questions or collaboration inquiries, please contact:
-
-Christopher A. McClurg
-mcclurgca@gmail.com
 
 ---
 
