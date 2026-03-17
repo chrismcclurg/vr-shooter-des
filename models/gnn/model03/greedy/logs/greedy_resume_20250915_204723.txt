@@ -1,0 +1,31 @@
+=> Resuming Greedy Feature Selection: 20250915_204723
+=> Starting with: []
+
+=> Selected: ['dir_sim'] (Acc: 0.6453)
+
+
+=> Selected: ['dir_sim', 'recency'] (Acc: 0.6794)
+
+
+=> Selected: ['dir_sim', 'recency', 'has_target'] (Acc: 0.7213)
+
+
+=> Selected: ['dir_sim', 'recency', 'has_target', 'betweenness'] (Acc: 0.7366)
+
+
+=> Selected: ['dir_sim', 'recency', 'has_target', 'betweenness', 'is_entrance'] (Acc: 0.7509)
+
+
+=> Selected: ['dir_sim', 'recency', 'has_target', 'betweenness', 'is_entrance', 'is_outside'] (Acc: 0.7567)
+
+
+=> No further improvement over previous stage. Stopping.
+
+
+==== Final Feature Set ====
+['dir_sim'] => Accuracy: 0.6453
+['dir_sim', 'recency'] => Accuracy: 0.6794
+['dir_sim', 'recency', 'has_target'] => Accuracy: 0.7213
+['dir_sim', 'recency', 'has_target', 'betweenness'] => Accuracy: 0.7366
+['dir_sim', 'recency', 'has_target', 'betweenness', 'is_entrance'] => Accuracy: 0.7509
+['dir_sim', 'recency', 'has_target', 'betweenness', 'is_entrance', 'is_outside'] => Accuracy: 0.7567

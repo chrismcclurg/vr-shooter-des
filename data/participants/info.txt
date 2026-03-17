@@ -1,0 +1,13 @@
+The following folders correspond to:
+
+E2 	no robot
+	collected in September – October 2023
+
+E3 	no robot
+	collected in October – December 2024
+
+E4 	robot (aggressive -- high distraction)
+	collected in October – December 2024
+
+E5 	robot (passive -- high distraction)
+	collected in October – December 2024

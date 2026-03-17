@@ -1,0 +1,12 @@
+model01		two-headed based on whether prediction is easy or hard
+		six features: 'dir_sim', 'recency', 'has_target', 'is_outside', 'is_entrance', 'is_stair'
+		features determined by forward greedy selection using splits 0 and 3
+
+model02 	single-head, loss function uses class weighting (easy / hard)
+		six features: 'dir_sim', 'recency', 'has_target', 'is_outside', 'is_entrance', 'is_stair'
+		features determined by previous features
+
+model03 	single-head, loss function uses class weighting (easy / hard)
+		six features: 'dir_sim', 'recency', 'has_target', 'betweenness', 'is_entrance', 'is_outside'
+		features determined by forward greedy selection using splits 0,1,2,3,4
+

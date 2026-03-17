@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environments
+.venv/
+env/
+tf210/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Still ignore these (important)
+*.mp4
+*.mkv
+*.zip
+*.7z
+*.pt
+*.pth
