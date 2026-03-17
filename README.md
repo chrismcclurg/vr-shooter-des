@@ -1,4 +1,4 @@
-# VR Shooter Discrete Event Simulator
+# VR Shooter DES
 
 ![Environment to Graph](assets/map_to_graph.png)
 
